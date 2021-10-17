@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* shoes brand  sidebar*/
+.shoe-type{
+    position: relative;
+    background-image: linear-gradient(180deg, black, rgb(204, 54, 54));
+}
+.shoes-brand{
+    margin-left: 10px;
+    position: fixed;
+}
+.nav-pills .nav-link.active, .nav-pills .show .nav-link{
+    color: brown;
+    font-weight: 700;
+    background-color: white;
+}
+.shoes-brand a{
+    color: white;
+}
+.card .card-title {
+    color: brown;
+    font-weight: 800;
+    font-size: 17px;
+}
+button{
+    background-image: linear-gradient(180deg, black, brown);
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+
